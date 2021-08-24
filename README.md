@@ -2,18 +2,18 @@
 
 This is the first API I've written to be used in conjunction with Domagoj, a Discord bot I created. You're free to use in your own projects and contribute! As a beginner, many things may have been coded poorly. You're free to contribute to the project. Below are some notes I took to better understand what the code does. Hopefully it's helpful to you as well.
 
-### db.config.js (you'll have to create one yourself, it contains sensitive information)
+### db.config.js
 In simple terms, a module is code that we group together for the purposes of sharing and reuse. Modules, therefore, allow us to break down complexity in our applications into small chunks.
 
 Module exports are the instruction that tells Node.js which bits of code (functions, objects, strings, etc.) to “export” from a given file so other files are allowed to access the exported code.
 
 To understand modules, we have to understand require, too. There’s no real sense in exporting functionality if we’re not consuming it elsewhere. Require is a function we can use to import other modules.
 
-This module export contains information to login our app into the server's MySQL table.
+This module export contains information to login our app into the server's MySQL table, taken from a config.json file. You should set it up as such in your own projects.
 
 ### sa_gta3.model.js & sa_player.model.js
 
-This Sequelize Model represents files table in MySQL database. Inside we define the files table and its properties. We tell the name of the table directly to Sequelize with the tableName parameter. We also force sequelize to not add timestamp table fields to the table upon initialization.
+These files represents sequelize models of their respective tables in your MySQL database. Inside we define these table and its properties. We tell the name of the table directly to Sequelize with the tableName parameter. We also force sequelize to not add timestamp table fields to the table upon initialization.
 
 ### index.js
 
