@@ -1,6 +1,10 @@
-# GTA API DOCUMENTATION
+<h1 align="center">
+    GTA API
+</h1>
 
 This is the first API I've written to be used in conjunction with Domagoj, a Discord bot I created. You're free to use in your own projects and contribute! As a beginner, many things may have been coded poorly. You're free to contribute to the project. Below are some notes I took to better understand what the code does. Hopefully it's helpful to you as well.
+
+<img src="https://discordapp.com/api/guilds/423230093947830282/widget.png?style=shield" alt="Discord Shield"/>
 
 ### db.config.js
 In simple terms, a module is code that we group together for the purposes of sharing and reuse. Modules, therefore, allow us to break down complexity in our applications into small chunks.
@@ -21,7 +25,7 @@ Here we import the configuration of our database, initialize sequelize with the 
 
 ### file.routes.js
 
-We create a module named app, importing our file controller and express library.
+We create a module named app, importing our files controller and express library.
 
 Routing refers to how an application’s endpoints (URIs) respond to client requests. Here we set up our router with two GET functions. The first one targets the base URL and calls a function to retrieve all files found in the mysql table. The second one has a router parameter that targets the id of the file.
 
