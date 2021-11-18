@@ -2,7 +2,7 @@
     GTA API
 </h1>
 
-This is the first API I've written to be used in conjunction with Domagoj, a Discord bot I created. You're free to use in your own projects and contribute! As a beginner, many things may have been coded poorly. You're free to contribute to the project. Below are some notes I took to better understand what the code does. Hopefully it's helpful to you as well.
+This is the first API I've written to be used in conjunction with Klochon, a Discord bot I created. You're free to use in your own projects and contribute! As a beginner, many things may have been coded poorly. You're free to contribute to the project. Below are some notes I took to better understand what the code does. Hopefully it's helpful to you as well.
 
 <img src="https://discordapp.com/api/guilds/423230093947830282/widget.png?style=shield" alt="Discord Shield"/>
 
