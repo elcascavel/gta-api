@@ -16,6 +16,6 @@
     "express-bearer-token": "2.4.0",
     "mysql": "2.18.1",
     "mysql2": "^3.9.7",
-    "sequelize": "^6.6.5"
+    "sequelize": "^6.37.8"
   }
 }
